@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1049750367111",
+    "project_id": "video-call-zegocloud",
+    "storage_bucket": "video-call-zegocloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049750367111:android:a4e3f98f88c9f73dbcc122",
+        "android_client_info": {
+          "package_name": "com.example.video_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049750367111-epso7feceqnkevelkbdefm91isckahvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwn1Cd1B4AlJSAljr95rcSVM9vmX4sJC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049750367111-epso7feceqnkevelkbdefm91isckahvp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1049750367111-307hia3pucd2tjhibofa9qr3cq922712.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videoChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

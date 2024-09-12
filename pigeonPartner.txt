@@ -1,0 +1,441 @@
+                                                        ( PIGEON PARTNER )
+
+lib
+    - appScreen
+        - dealer
+            - AccountSummary
+                . AccountSummaryScreen.dart
+                . DealerArTransactionModel.dart
+
+            - Add
+                . AddRequestScreen.dart
+                . CustomerCreateAddress.dart
+                . ProductSummaryScreen.dart
+                . SelectAppointmentScreen.dart
+                . SelectBrandScreen.dart
+                . SelectCustomerAddressScreen.dart
+                . SelectDealerLocationScreen.dart
+                . SelectModelScreen.dart
+                . SelectProductScreen.dart
+
+            - addproductWizerd
+                -  vasWarrantyAddFlow
+                    . AddProd.dart
+                    . CustomBottomSheet.dart
+                    . SelBrand.dart
+                    . SelModel.dart
+                    . SelProduct.dart
+                    . vas_WarrantiesAddress_Screen.dart
+                    . vas_WarrantiesName_Screen.dart
+                    . vas_WarrantiespaymentMode_Screen.dart
+                    . vasCeartNewAddress_Screen.dart
+                    . vasCreate_addressScreen.dart
+                    . vasWarrantyDuration_Screen.dart
+                    . VS_warrentyOfferScreen.dart
+
+                -  vasWarrantycreateOrders
+                    - dataWidget
+                        . customer_info.dart
+                        . documents_info.dart
+                        . EWDocumentUpload_Screen.dart
+                        . payment_info.dart
+                        . product_info.dart
+                        . vasWarrantyShowAddress.dart
+                        . warranty_info.dart
+
+                    . CreateOrder.dart
+                    . custom_horizontal_stepper.dart
+                    . Textfielddecoration.dart
+                    . vasCeartNewAddress_Screen.dart
+                    
+
+                -  vasWarrantyOrderDetails
+                    . DealerOrderDetailsScreen.dart
+                    . DealerOrderScreen.dart
+
+                - model                    
+                    . VasBrandsModel.dart 
+                    . vasModelsModel.dart  
+                    . vasPaymentModesModel.dart 
+                    . vasProductsModel.dart    
+                    . VasSelectAddressModel.dart  
+                    . vasWarrantyDurations.dart 
+                    . vasWarrantyName.dart 
+                    . vasWarrantySalesModel.dart   
+                    . VvasAddressesWithMobileNumberModel.dart
+
+            - createOrders                
+                . CreateOrder.dart 
+                . Textfielddecoration.dart
+
+            - CustomerSupport
+                - model
+                    . DealersAttributeValuesModel.dart
+
+                . CustomerSupportScreen.dart 
+                . SupportsModel.dart
+
+            - DealerNoftification                
+                . DealerNotificationScreen.dart 
+                . DealerNotificationsModel.dart
+
+            - DealerSetting 
+                . CreateNewOrder.dart 
+                . DealerSettingScreen.dart 
+                . MyCartScreen.dart 
+                . OrderSummaryScreen.dart 
+                . OrderViewScreen.dart 
+                . ViewOrderDetailsScreen.dart
+
+            - Home                
+                - Model                     
+                    . DealerDashboardNewModle.dart 
+                    . DealerResourcesMultiModle.dart 
+                    . NextStepModle.dart
+
+                . DashboardScreen.dart 
+                . DealerDashboardScreen.dart 
+                . HomeScreenUpdate.dart
+
+            - MyLocation                
+                . MyLocationModel.dart 
+                . MyLocationScreen.dart
+
+            - PapupNotification
+                . popup.dart
+
+            - Products    
+                - Model 
+                    . dealerProductsModel.dart 
+                    . documentTypesModle.dart 
+                    . ProductDetailsModel.dart 
+                    . SelectIssueScreenModel.dart
+
+                . DealerProductScreen.dart 
+                . ImageZoom.dart 
+                . ProductDetailsScreen.dart
+
+            - registration                
+                - ForgotPassword 
+                    . ChangePasswordScreen.dart 
+                    . ForgotPasswordScreen.dart 
+
+                - model 
+                    . AreaWithOutAuthmodel.dart 
+                    . DealerCustomersAddressModel.dart 
+                    . dealerRegisterStepTwoModle.dart 
+                    . DealerSearchWithPinmodel.dart 
+                    . pincodesmodel.dart 
+
+                . OwnerRegisterinfoOne_Screen.dart 
+                . OwnerRegisterThree_Screen.dart 
+                . OwnerRegisterTwo_Screen.dart 
+                . RegisterinfoScreen.dart 
+                . RegisterLocationScreen.dart 
+                . SelectDealerScreen.dart 
+                . SignInScreenPage.dart 
+                . SignupScreen.dart                
+
+            - Request                
+                - Model 
+                    . DealerDigitalRequestsModel.dart 
+                    . DealerUserRequestNewModel.dart
+
+                . DealerRequestScreen.dart 
+                . RequestDetailsScreen.dart                
+
+            - Webview
+                . DealerWebViewScreen.dart                
+
+            . ChooseAddressScreen.dart
+            . ProductScreen.dart
+            . SelectIssueScreen.dart
+            . TaskScreen.dart
+            . webViewScreenone.dart
+        
+        - technician    
+            - CustomerSupport 
+                - model 
+                    . DealersAttributeValuesModel.dart 
+
+                . SupportsModel.dart 
+                . technicianCustomerSupportScreen.dart
+
+            - Home 
+                - Model 
+                    . BannerDataModel.dart 
+                    . MarqueeDataModel.dart 
+                    . technicianDashboardModel.dart 
+                    . techniciansListModel.dart 
+                . HomeScreen.dart 
+                . technicianDashboardScreen.dart
+
+            - Jobs 
+                -  Model 
+                    . callNowMaskModel.dart 
+                    . GooglePlaceResultModel.dart 
+                    . JobUpdateScreenModel.dart 
+                    . ShowTaskDocumentModel.dart 
+                    . TechnicalDocumentUploadModle.dart 
+                    . technicianRequestsCallingFilterModel.dart 
+                    . technicianRequestsFilterGoogleMapModel.dart 
+                    . TechnicianTaskUpdatemodel.dart
+
+                . callingScreen.dart 
+                . DocumentUpload_Screen.dart 
+                . JobListShowGoogleMap.dart 
+                . JobPageHomeScreen.dart 
+                . JobsScreen.dart 
+                . JobsScreenNewFlow.dart 
+                . PrepaidScreen.dart 
+                . sample_test.dart 
+                . UpdateTask.dart
+
+            - Login 
+                . LoginWithUsernameScreen.dart 
+                . OtpScreen.dart
+
+            - Money 
+                - model 
+                    . technicianMoneyDashboardModel.dart 
+                    . technicianServicePaymentModel.dart
+
+                . MoneyNewScreen.dart 
+                . MoneyScreen.dart
+
+            - Noftification 
+                . notificationScreen.dart 
+                . NotificationsModel.dart
+
+            - Order 
+                - Model 
+                    . dealerTasksModel.dart 
+                    . DealerViewCartModel.dart 
+                    . DealerViewCartShowModel.dart 
+                    . OrdershistoryListDetailsModel.dart 
+                    . OrdershistoryListModel.dart 
+                    . SalesOrderListModel.dart 
+                    . TechnicianProductsWithFiltersModel.dart
+
+                . CreateNewOrder.dart 
+                . ESignatureScreen.dart 
+                . MyCartScreen.dart 
+                . OrderDetailsScreen.dart 
+                . OrdersScreen.dart 
+                . OrderSummaryScreen.dart 
+                . OrderViewScreen.dart 
+                . SignatureScreen.dart 
+                . ViewOrderDetailsScreen.dart 
+                . webViewScreenWithOrder.dart 
+
+            - part 
+                . AddAddressScreen.dart 
+                . AddBankScreen.dart 
+                . AddressScreen.dart 
+                . AllocateParts.dart 
+                . ExpenseClaim.dart 
+                . HelpActionScreen.dart 
+                . KycScreen.dart 
+                . MyBankMoneyScreen.dart 
+                . MyBankScreen.dart 
+                . MySkillScreen.dart 
+                . OrderScreen.dart 
+                . RechargeScreen.dart 
+                . SearchOrderScreen.dart 
+                . ServiceLocationScreen.dart 
+                . SparePartsRequest.dart
+
+            - Setting 
+                changeLanguage.dart 
+                SettingScreen.dart
+
+            - technicianProfile 
+                . ChangePassword.dart 
+                . profileTechnicain.dart 
+
+        . AcceptScreen.dart
+        . FilterScreen.dart
+        . NoInternetScreen.dart
+        . PaymentWebView.dart
+        . splashScreen.dart
+        . webViewScreen.dart
+        
+    - constants        
+        . AppConstants.dart 
+        . appFontStyleConstants.dart 
+        . appTextSizeConstants.dart 
+        . MyColors.dart
+
+    - models        
+        - businessLayer 
+            . apiHelper.dart 
+            . base.dart 
+            . baseRoute.dart 
+            . businessRule.dart 
+            . dealer_query_document_provider.dart 
+            . dioResult.dart 
+            . error_widget.dart 
+            . export.dart 
+            . global.dart 
+            . google_button.dart 
+            . loading_spinner.dart 
+            . mapUtils.dart 
+            . mutation_wrapper.dart 
+            . placeService.dart 
+            . queries.dart 
+            . query_document_provider.dart 
+            . query_wrappe_Pagination.dart 
+            . query_wrapper.dart
+
+        . AllProductListModel.dart 
+        . CurrrentUserModel.dart 
+        . DealerBrandListModel.dart 
+        . DealerCategoriesListModel.dart 
+        . DealerCustomerAddressListModel.dart 
+        . DealerCustomerListModel.dart 
+        . DealerFilterDataModel.dart 
+        . DealerLocationsListModel.dart 
+        . DocumentTypeModel.dart 
+        . error.dart 
+        . geometryModel.dart 
+        . JobRequestDetailsModel.dart 
+        . JobRequestModel.dart 
+        . localNotificationModel.dart 
+        . locationModel.dart 
+        . placeModel.dart 
+        . SendOTPModel.dart 
+        . TransactionsModel.dart 
+        . VerifyOTPModel.dart
+
+    - theme
+        . nativeTheme.dart        
+
+    - utils    
+        . Constants.dart
+        . DateValidation.dart
+        . images.dart
+        . keyboardWithDoneButton.dart
+        . NetworkCheck.dart
+        . onedios_tanslator_text.dart
+        . Strings.dart
+
+    - widgets        
+        . app_button.dart 
+        . app_text.dart 
+        . bar_items.dart 
+        . navigation_action_bar.dart 
+        . NetworkLostWidget.dart 
+        . otpInput.dart 
+        . painter.dart 
+        . Stepper_Widget.dart
+
+    . app.dart                                      
+    . main.dart
+
+
+                                                                    ( PIGEON PARTNER WORKING )
+
+(main.dart) 
+. contains firebase starting logics 
+
+(app.dart) 
+
+. here check connectivity status , Internet connectivity status
+. it contains native theme features , lib/Theme/nativeTheme.dart
+. if not than go to (InternetLostPage) , lib/widgets/NetworkLostWidget.dart 
+. if connected go to (SplashScreen) , lib/appScreen/splashScreen.dart
+
+(SplashScreen) lib\appScreen\splashScreen.dart
+
+. here we check location permission using checkLocationPremission function 
+    - if isLocationServiceEnabled is true than run checkGPS function 
+      where we check location permission having enum values [denied, deniedForever, whileInUse, always, unableToDetermine]
+
+    - if isLocationServiceEnabled is false than run showLocationAlert function 
+      where it shows a dialog which want us to aalow location permission having accept and dany button
+
+. than we run _getTokenFromFirebaseMessaging here we get token from firebase
+
+. than after we run _init function 
+    - it defines a duration of 1 second+, until this it shows a logo image After the specified duration, it executes a function using a Timer
+      It checks connectivity using the br.checkConnectivity() if the device is connected to the internet:
+      It retrieves the device token using Firebase Cloud Messaging (FirebaseMessaging.instance.getToken()).
+
+    - It retrieves data and base URL from shared preferences and If user data is available in shared preferences:
+      if data != null than it checks It checks the user type (mCurrrentUserModel.type)
+
+      If the user type is "ASP" than it navigates to the technician dashboard screen using Navigator.pushReplacement.
+      else  it navigates to the dealer main dashboard screen.
+
+      if data == null it navigates to the login screen. 
+
+      If the device is not connected to the internet, it displays a network error snack bar using showNetworkErrorSnackBar function.
+
+(LoginWithUsernameScreen) lib\appScreen\technician\Login\LoginWithUsernameScreen.dart
+
+. _getTokenFromFirebaseMessaging() it Fetch Firebase messaging token initially 
+. initPlatformState it collect the information of our android / IOS mobile device and store into deviceData data
+. Now Build function runs it have an userId , password having controllerPhone and controllerPassword
+. forgot password button which navigate to (ForgotPasswordScreen) lib\appScreen\dealer\registration\ForgotPassword\ForgotPasswordScreen.dart
+. Create account button which navigate to (SignupScreen) lib\appScreen\dealer\registration\SignupScreen.dart
+
+. On Submit button 
+    - TechnicianappBaseUrl() API calls lib\models\businessLayer\queries.dart
+    - FLow after User clicks on the submit button.
+        onTap is triggered : 
+            It checks if isUserID and isPassword are both true.
+            If valid, calls _loginValidateUpdate.
+
+        In _loginValidateUpdate :   
+            if controllerPhone.text is not empty.  calls runMutation with the phone number as an argument.
+
+        GraphQL Mutation Execution:
+            The MutationWrapper's Mutation widget executes the mutation.
+            Mutation widget's onCompleted callback is set to _onCompletedUpdate.
+
+        Handling Mutation Result:
+            _onCompletedUpdate is called with the mutation result.
+            Checks the status in the result.
+            If status is 200, 
+                updates global URLs, 
+                saves to shared preferences, 
+                and calls the appropriate login function (DealerAppLoginwithBaseUrl or TechnicianappLoginwithBaseUrl).
+                
+            If status is not 200, clears shared preferences and shows an error message.
+
+(ForgotPasswordScreen) lib\appScreen\dealer\registration\ForgotPassword\ForgotPasswordScreen.dart
+
+. dealerForgotPassword() API calls lib\models\businessLayer\queries.dart
+. Data Flow
+    User enters User ID: The user enters their ID in the TextField controlled by controllerPhone.
+    Submit button clicked: When the submit button is clicked, _loginValidateUpdate is called.
+    Run Mutation: This function calls the runMutation provided by the MutationWrapper.
+    GraphQL Mutation: The mutation dealerForgotPassword is executed on the server.
+    Handle Response: The response is handled in the onCompleted callback. If successful, the OTP input field is displayed and a timer is started.
+    
+    when yourOTPvisible = true  
+        A Card with input OTP field and a varify button shown 
+        and after clicking on varify button calls ChangePasswordScreen() lib\appScreen\dealer\registration\ForgotPassword\ChangePasswordScreen.dart
+
+    enableResend = true 
+        after finishing timer of 60 sec it restart the same process.
+
+(Signup Screen) lib\appScreen\dealer\registration\SignupScreen.dart  
+
+. Have owner on click go to OwnerRegisterinfoOne_Screen() 
+     
+(OwnerRegisterinfoOne_Screen) lib\appScreen\dealer\registration\OwnerRegisterinfoOne_Screen.dart
+
+. having user info text field and button to submit the form and 
+  redirect to (OwnerRegisterTwo_Screen) by having using user info.
+
+
+
+
+
+
+
+
+
+
+             

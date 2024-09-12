@@ -1,0 +1,3 @@
+(implementation in-app video calling)
+
+- Flutter_webrtc library, which has the requisite WebRTC code for all platforms that Flutter supports.

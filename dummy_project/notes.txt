@@ -1,0 +1,181 @@
+Widget having white background and a text in center : 
+
+    class MyApp extends StatelessWidget {
+        const MyApp({super.key});
+
+        @override
+        Widget build(BuildContext context) {
+            return MaterialApp(
+            home: Material(
+                child: Center(
+                child: Container(
+                    child: const Text('Welcome to first flutter App'),
+                ),
+                ),
+            ),
+            );
+        }
+    }
+
+Scaffold Widget :
+
+    The Scaffold widget in Flutter is a fundamental building block for mobile app interfaces. 
+    Key components include: AppBar, body, floatingActionButton, bottomNavigationBar.
+
+    Scaffold(
+    appBar: AppBar(
+        title: Text('My App'),
+        actions: [IconButton(icon: Icon(Icons.search), onPressed: () {})],
+    ),
+    body: ...,
+    floatingActionButton: ...,
+    bottomNavigationBar: ...,
+    )
+
+Form in flutter :
+
+    children: [
+        TextFormField(
+            obscureText: true,
+            decoration: const InputDecoration(
+            labelText: "Username :",
+            hintText: "Enter your name",
+            ),
+        ),
+    
+        TextFormField(
+            decoration: const InputDecoration(
+            labelText: "Password :",
+            hintText: "Enter your password",
+            ),
+        ),
+
+        ElevatedButton(
+            child: Text('Login'),
+            style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 32.0),
+            ),
+            onPressed: () {},
+        ),
+    ]
+
+onChanged in flutter :
+
+    In Flutter, the onChanged callback is commonly used with form input fields, 
+    such as TextField, Checkbox, Radio, etc. 
+    
+    It is triggered whenever the state of the input field changes, typically in response to user interaction.
+
+    TextField(
+        onChanged: (String value) {
+            // This function is called whenever the text in the TextField changes.
+            print('Input value changed: $value');
+        },
+    )
+
+    Checkbox(
+        value: isChecked,
+        onChanged: (bool? value) {
+            // This function is called when the checkbox state changes.
+            print('Checkbox state changed: $value');
+        },
+    )
+
+    Radio(
+        value: selectedValue,
+        groupValue: groupValue,
+        onChanged: (value) {
+            // This function is called when a different radio option is selected.
+            print('Radio value changed: $value');
+        },
+    )
+
+setState in Flutter :
+
+    It is a method that belongs to the State class and is used to notify the framework that
+    the internal state of the object has changed. 
+    
+    When you call setState, it triggers a rebuild of the widget subtree, 
+    and Flutter will recall the build method to recreate the user interface based on the updated state.
+
+alignment : Alignment.centre; // it centre the text from vertically and horizontally in a container
+
+
+Design a custom button without using elevated button widget :
+
+    InkWell(
+      onTap: () {
+        Navigator.pushNamed(context, MyRoutes.homeRoute);
+      },
+      child: AnimatedContainer(
+        width:150,
+        height:50,
+        alignment : Alignment.centre,
+        child: Text(
+          "Login",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 16,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        decoration: BoxDecoration(
+          color: Colors.blue,
+          borderRadius: BorderRadius.circular(8),
+        ),
+      ),
+    );
+
+Elevated button :
+
+    ElevatedButton(
+        style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(
+                vertical: 16.0, horizontal: 32.0),
+        ),
+        onPressed: () {
+            Navigator.pushNamed(context, MyRoutes.homeRoute);
+        },
+        child: const Text('Login'),
+    ),
+
+ListView.builder() :
+
+    ListView.builder() is a constructor for creating a scrollable, linear list of widgets whose size
+    is not predetermined. It's particularly useful when you have a large number of items to display, 
+    as it only creates widgets for the items that are currently in view on the screen.
+
+    itemBuilder: 
+        A callback that builds the widget for a specific index in the list. 
+        It takes two parameters: the BuildContext and the index of the item being built. 
+        This callback is called only for the widgets that are currently visible on the screen.
+
+    itemCount: 
+        The total number of items in the list. This tells Flutter how many times the itemBuilder callback should be called.
+
+    shrinkWrap: 
+        A boolean that indicates whether the ListView should adjust its size based on the contents. 
+        If set to true, the ListView will be as small as possible, wrapping its content. 
+        If set to false, the ListView will expand to fill its parent.
+
+Creating a List using ListTile :
+
+    return Card(
+        child: ListTile(
+        onTap: () {
+          print("${item.name} pressed");
+        },
+        leading: Image.network(item.image), // placed left hand size 
+        title: Text(item.name), 
+        subtitle: Text(item.desc),
+        trailing: Text( // placed right hand side 
+          "\$${item.price}",
+          textScaleFactor: 1.5,
+          style: const TextStyle(
+            color: Colors.blue,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
+    );
+
